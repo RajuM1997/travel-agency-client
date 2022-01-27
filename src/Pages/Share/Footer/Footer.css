@@ -1,0 +1,15 @@
+.footer {
+    background: rgb(14, 44, 80);
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+.web-details,
+.business-details,
+.contact-us {
+    color: #fff;
+}
+
+.about-us {
+    color: #fff;
+}

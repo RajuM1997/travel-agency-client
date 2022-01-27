@@ -1,0 +1,35 @@
+/* testimonial img and icon style here */
+body {
+    overflow-x: hidden;
+}
+
+.testimonial h1 {
+    color: #000;
+}
+
+.testimonial .card {
+    background: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.testimonial .card:hover {
+    transform: translateY(10px);
+    box-shadow: 6px 6px 7px rgba(128, 128, 128, 0.787);
+}
+
+.testimonial .card img {
+
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-icon {
+    color: rgb(10, 121, 25);
+}

@@ -1,0 +1,62 @@
+.card {
+    max-height: 700px;
+}
+
+.package .card {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.package .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 6px 6px 7px rgba(128, 128, 128, 0.787);
+}
+
+.card-image {
+    height: 250px !important;
+}
+
+.card-footer {
+    background: none !important;
+    border: none !important;
+}
+
+.get-package {
+    background: transparent !important;
+    border: 1px solid rgb(165, 248, 71);
+    padding: 10px 45px;
+    outline: none;
+    color: #000;
+    transition: all 0.5s;
+}
+
+.description {
+    font-size: 16px !important;
+}
+
+.reviw-text {
+    color: rgb(185, 185, 185);
+}
+
+.get-package:hover {
+    background: rgb(224, 165, 2) !important;
+    color: #fff;
+    border: azure;
+}
+
+.pack-icon .fas {
+    color: rgb(4, 97, 7);
+    font-size: 20px;
+}
+
+.price {
+    color: rgb(6, 154, 240);
+}
+
+.spiner {
+    width: 500px;
+    height: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}

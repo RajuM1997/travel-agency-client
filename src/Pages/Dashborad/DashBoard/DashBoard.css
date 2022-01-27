@@ -1,0 +1,38 @@
+.bashboard-manu {
+    background: #ebeaea;
+    height: 100%;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.all-order li {
+    list-style: none;
+     width: 150px;
+     text-align: justify;
+    color: #111 !important;
+}
+
+.all-order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111 !important;
+    margin: 10px;
+    width: 300px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
+.icon{
+    color: crimson;
+}
+
+.active {
+    background: rgba(195, 193, 193, 0.424);
+    border-radius: 10px;
+}
+
+.all-order:hover {
+    background: rgba(221, 217, 217, 0.376);
+    border-radius: 10px;
+}

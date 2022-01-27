@@ -1,0 +1,47 @@
+.left-side {
+    position: relative;
+    /* max-width: 500px;
+    max-height: 500px;*/
+}
+
+.left-img .play-icon {
+    background: #fff;
+    border-radius: 50%;
+    color: crimson;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+
+
+}
+
+.play-icon:hover {
+    background: crimson;
+    color: #fff;
+}
+
+.chooes {
+    background: rgb(238, 229, 229);
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.chooes .fas,
+.chooes .far {
+    text-align: center;
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background: crimson;
+    color: #fff;
+    border-radius: 50%;
+}

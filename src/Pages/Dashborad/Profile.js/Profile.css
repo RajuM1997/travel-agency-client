@@ -1,0 +1,25 @@
+
+.user {
+    color: #111;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.user img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.logOut_btn{
+    background: crimson;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    color: #ffff;
+    margin-top: 10px;
+}

@@ -1,0 +1,140 @@
+
+.banner-section{
+    position: relative;
+    padding: 0;
+}
+
+
+.carousel-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-blend-mode: overlay;
+    max-height: 80vh;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 1s all ease-in-out;
+    overflow: hidden;
+}
+/* .carousel-img img:hover{
+    width: 100%;
+    height: 100%;
+    transform: scale(2);
+} */
+
+.caption {
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.carousel-btn {
+    background: transparent;
+    padding: 10px 50px;
+    color: rgba(255, 230, 230, 0.904);
+    border: 3px solid rgba(255, 230, 230, 0.952);
+    outline: none;
+    font-size: 17px;
+    transition: all 0.5s;
+}
+
+.carousel-btn:hover {
+    background: crimson;
+    color: #fff;
+}
+
+.carousel-text {
+    color: blue;
+    font-size: 30px;
+}
+
+.banner-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+}
+
+.banner-main h1 {
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Permanent Marker',
+        cursive;
+}
+.sub_title{
+    font-size: 18px;
+}
+
+.banner-main small {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Lobster',
+        cursive;
+}
+
+.call-btn {
+    background: rgb(4, 194, 200);
+    padding: 10px 45px;
+    border: none;
+    outline: none;
+    color: #000;
+    font-weight: 500;
+    border-radius: 5px;
+
+}
+
+.carousel-control-prev-icon {
+    display: none !important;
+}
+
+.carousel-control-next-icon {
+    display: none !important;
+}
+.banner-section .container{
+    margin-top: -100px;
+    position: absolute;
+    margin: 0 auto;
+}
+.tore{
+    height: 100%;
+    background: rgb(81, 52, 247);
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+}
+.tore h1{
+    font-size: 43px;
+
+}
+.form{
+    background: rgb(243, 242, 247);
+    height: 100%;
+    padding: 50px 0;
+    text-align: center;
+    color: rgb(236, 11, 11);
+}
+.search{
+    height: 20px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-img {
+        max-height: 100%;
+        object-fit: cover;
+    }
+
+    .caption {
+        position: absolute;
+        top: 30%;
+    }
+    .container{
+        padding-right: 0 !important;
+    }
+}

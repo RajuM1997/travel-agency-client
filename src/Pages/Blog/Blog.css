@@ -1,0 +1,38 @@
+.blog .active {
+    cursor: pointer;
+    transform: scale(1.07);
+    box-shadow: 10px 6px 7px rgba(128, 128, 128, 0.787);
+}
+
+.blog .card {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.blog .card:hover {
+    transform: scale(1.01);
+    box-shadow: 10px 6px 7px rgba(128, 128, 128, 0.787);
+}
+.product-icon {
+    color: goldenrod;
+    font-size: 20px;
+}
+
+
+.comment-icon .far {
+    color: rgba(184, 11, 11, 0.664);
+}
+.pagination{
+    margin: 30px;
+    background: transparent !important;
+}
+.pagination button{
+    margin-right: 20px;
+    padding: 0 10px;
+}
+.pagination .selected{
+    background: rgb(1, 134, 1);
+    color: #fff;
+    margin-right: 20px;
+    padding: 0 10px;
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Residential Waters",
+    "description": "We now supply pure, fresh and healthy water for medical, industrial, commercial, and laboratory use.",
+    "price": 32,
+     "review": "5",
+    "image": "https://i.ibb.co/YQtr06J/service-1.jpg",
+    "category": "south asia",
+    "duration": "2day"
+  },
+  {
+    "title": "Commercial Waters",
+    "description": "We supply residential water and its price depends on your family members and how much water you are using every month.",
+    "price": 35,
+     "review": "5",
+    "image": "https://i.ibb.co/XYxwJ2M/service-4.jpg",
+    "category": "south asia",
+     "duration": "1day"
+
+  },
+  {
+    "title": "Filtration Plants",
+    "description": "Filtration plants machines are now selling at our company for your benefit and giving free service.",
+    "price": 40,
+     "review": "4",
+    "image": "https://i.ibb.co/ggX2cG2/service-3.jpg",
+    "category": "south asia",
+     "duration": "2day"
+  },
+  {
+    "title": "Free Water Delivery",
+    "description": "We are now giving you free water delivery. If you give us an order you don’t have any need to bother with the service money.",
+    "price": 30,
+     "review": "5",
+    "image": "https://i.ibb.co/j5VS5rM/service-2.jpg",
+    "category": "south asia"
+  },
+  {
+    "title": "Water Softening",
+    "description": "Water has ions, calcium, magnesium and iron due to water softening we remove all these from the water since it is harmful.",
+    "price": 35,
+     "review": "5",
+    "image": "https://i.ibb.co/0DmNZzg/service-5.jpg",
+    "category": "south asia"
+  },
+  {
+    "title": "Water Softening",
+    "description": "Water has ions, calcium, magnesium and iron due to water softening we remove all these from the water since it is harmful.",
+    "price": 35,
+     "review": "5",
+    "image": "https://i.ibb.co/f9QHMwZ/service-6.jpg",
+    "category": "south asia"
+  }
+  
+]

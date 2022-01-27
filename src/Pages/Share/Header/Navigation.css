@@ -1,0 +1,22 @@
+.nav_link{
+    color: #000 !important;
+    font-size: 16px;
+    transition: all 0.5s !important;
+    font-weight: 500;
+}
+.nav_link:hover{
+    color: red !important;
+    font-weight: 500;
+}
+
+
+.user-img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.custome-bg {
+    background: rgb(244, 243, 246);
+}
