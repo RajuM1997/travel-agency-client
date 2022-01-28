@@ -21,7 +21,7 @@ const Blog = () => {
         setLoading(false);
       });
   }, [page]);
-  // console.log(blogs);
+  // console.log(blogs)
   return (
     <div className="blog py-5">
       <Container>

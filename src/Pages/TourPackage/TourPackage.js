@@ -14,6 +14,7 @@ const TourPackage = () => {
         setLoading(false);
       });
   }, []);
+  //console.log("")
   return (
     <div className="package">
       <Container className="py-5">
